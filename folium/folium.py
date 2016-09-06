@@ -674,7 +674,7 @@ class Map(LegacyMap):
             return {
                 "weight": line_weight,
                 "opacity": line_opacity,
-                "color": line_color,
+                "color": color_scale_fun(x),
                 "fillOpacity": fill_opacity,
                 "fillColor": color_scale_fun(x)
             }
